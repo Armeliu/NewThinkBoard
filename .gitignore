@@ -1,23 +1,6 @@
-# dependencies
-node_modules/
-
-# env files
+node_modules
 .env
 .env.*
-
-# logs
-*.log
-
-# build outputs
-dist/
-build/
-
-# OS
 .DS_Store
-Thumbs.db
-
-# coverage
-coverage/
-
-# vite cache
-.vite/
+dist
+coverage
