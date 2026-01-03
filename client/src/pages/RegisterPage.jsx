@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiRequest } from '../lib/api.js';
-import { useAuth } from '../hooks/useAuth.js';
+import { useAuth } from '../hooks/useAuth.jsx';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -44,9 +44,6 @@ const RegisterPage = () => {
         </label>
         {error && <p className="error">{error}</p>}
         <button type="submit">Register</button>
-        <button type="button" className="ghost" onClick={() => navigate('/login')}>
-          Already have an account? Login
-        </button>
       </form>
     </main>
   );

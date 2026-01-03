@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { apiRequest } from '../lib/api.js';
-import { useAuth } from '../hooks/useAuth.js';
+import { useAuth } from '../hooks/useAuth.jsx';
 import { connectSocket } from '../lib/socket.js';
 
 const LobbyPage = () => {
@@ -58,14 +58,6 @@ const LobbyPage = () => {
       {user ? <p>Signed in as {user.username}</p> : <p>Please login to play.</p>}
       <div className="card">
         <p>{status}</p>
-        {!token && (
-          <div className="actions">
-            <button onClick={() => navigate('/login')}>Login</button>
-            <button className="ghost" onClick={() => navigate('/register')}>
-              Register
-            </button>
-          </div>
-        )}
         <div className="actions">
           <button onClick={handleCreate} disabled={!token}>
             Create room

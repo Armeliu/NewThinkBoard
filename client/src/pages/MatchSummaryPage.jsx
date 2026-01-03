@@ -1,6 +1,6 @@
 import { useLocation, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { useAuth } from '../hooks/useAuth.js';
+import { useAuth } from '../hooks/useAuth.jsx';
 import { apiRequest } from '../lib/api.js';
 
 const MatchSummaryPage = () => {
