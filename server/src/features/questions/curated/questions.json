@@ -1,0 +1,96 @@
+[
+  {
+    "type": "MCQ",
+    "prompt": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+    "answer": "Mars",
+    "difficulty": "EASY",
+    "negativeMarking": true
+  },
+  {
+    "type": "MCQ",
+    "prompt": "What is the capital city of Australia?",
+    "options": ["Sydney", "Canberra", "Melbourne", "Perth"],
+    "answer": "Canberra",
+    "difficulty": "EASY",
+    "negativeMarking": false
+  },
+  {
+    "type": "MCQ",
+    "prompt": "Which data structure uses FIFO (first in, first out)?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue",
+    "difficulty": "EASY",
+    "negativeMarking": true
+  },
+  {
+    "type": "MCQ",
+    "prompt": "Which country hosted the 2016 Summer Olympics?",
+    "options": ["China", "Brazil", "United Kingdom", "Japan"],
+    "answer": "Brazil",
+    "difficulty": "MEDIUM",
+    "negativeMarking": false
+  },
+  {
+    "type": "MCQ",
+    "prompt": "What is the smallest prime number greater than 50?",
+    "options": ["51", "53", "57", "59"],
+    "answer": "53",
+    "difficulty": "MEDIUM",
+    "negativeMarking": true
+  },
+  {
+    "type": "MCQ",
+    "prompt": "Which element has the chemical symbol 'K'?",
+    "options": ["Potassium", "Krypton", "Calcium", "Copper"],
+    "answer": "Potassium",
+    "difficulty": "MEDIUM",
+    "negativeMarking": false
+  },
+  {
+    "type": "MCQ",
+    "prompt": "Which language is primarily used for styling web pages?",
+    "options": ["HTML", "CSS", "Java", "Python"],
+    "answer": "CSS",
+    "difficulty": "EASY",
+    "negativeMarking": false
+  },
+  {
+    "type": "MCQ",
+    "prompt": "In which year did the Berlin Wall fall?",
+    "options": ["1987", "1989", "1991", "1993"],
+    "answer": "1989",
+    "difficulty": "HARD",
+    "negativeMarking": true
+  },
+  {
+    "type": "ESSAY",
+    "prompt": "Explain how photosynthesis supports life on Earth. Include the role of sunlight, carbon dioxide, and oxygen.",
+    "difficulty": "MEDIUM",
+    "rubric": {
+      "accuracy": "Explains the core inputs/outputs of photosynthesis.",
+      "completeness": "Mentions sunlight, CO2, and oxygen roles.",
+      "clarity": "Clear, well-structured explanation."
+    }
+  },
+  {
+    "type": "ESSAY",
+    "prompt": "Describe two ways teamwork improves outcomes in a project. Provide a brief example.",
+    "difficulty": "EASY",
+    "rubric": {
+      "accuracy": "Identifies realistic teamwork benefits.",
+      "completeness": "Covers two distinct benefits and includes an example.",
+      "clarity": "Example is easy to follow."
+    }
+  },
+  {
+    "type": "ESSAY",
+    "prompt": "Summarize the impact of the internet on education in the last two decades.",
+    "difficulty": "HARD",
+    "rubric": {
+      "accuracy": "Mentions key changes like access, online learning, or resources.",
+      "completeness": "Includes both positive and challenging impacts.",
+      "clarity": "Structured summary with concise points."
+    }
+  }
+]
